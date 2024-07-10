@@ -20,7 +20,7 @@ app.listen(port, () => {
 
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://gloop216:t6OwXxDJu1KR9YA3@cluster0.nryicsp.mongodb.net/bokks?retryWrites=true&w=majority&appName=Cluster0").then(() => {
+mongoose.connect().then(() => {
     console.log("connect with mongo")
 })
 
